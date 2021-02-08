@@ -1,0 +1,107 @@
+.App {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.row {
+    width: 40%;
+    height: 60px;
+}
+
+.col {
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}
+
+td:hover {
+    background: #0075d8;
+    transition: all 0.2s ease-in;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #fbf8e3;
+    color: #8e7342;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.game-canvas-container {
+    margin-top: 20px;
+}
+
+.select-mode {
+    margin-top: 35px;
+}
+
+.select-mode > button {
+    margin-left: 10px;
+    width: 70px;
+    height: 30px;
+    background: #0075d8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.history-container__header {
+    min-width: 190px;
+}
